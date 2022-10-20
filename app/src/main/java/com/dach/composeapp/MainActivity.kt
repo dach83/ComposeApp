@@ -8,6 +8,7 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.ui.Modifier
 import com.dach.composeapp.expandable_card.ExpandableCardDemo
+import com.dach.composeapp.parallax_effect.CollapsingToolBar
 import com.dach.composeapp.ui.theme.ComposeAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,7 +21,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    ExpandableCardDemo()
+                    CollapsingToolBar()
+                    //ExpandableCardDemo()
                 }
             }
         }
